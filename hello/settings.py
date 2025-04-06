@@ -76,7 +76,7 @@ TEMPLATES = [
 ]
 
 ALLOWED_HOSTS = [
-    'loan-analysis-approval.onrender.com',
+    'https://loan-approval-h5dw.onrender.com',
     'localhost',
     '127.0.0.1',
     '.onrender.com', 
