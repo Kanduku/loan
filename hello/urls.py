@@ -16,8 +16,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from .views import csv_data_json
-from .views import predict_loan_status
+from .predict_loan import predict_loan_status
+from .csv_data import csv_data_json
 
 urlpatterns = [
     path('admin/', admin.site.urls),
